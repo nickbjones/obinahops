@@ -1,0 +1,22 @@
+title: Error
+
+icon: ⛈
+
+options:
+  delete: false
+  changeTitle: false
+  changeStatus: false
+  duplicate: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  intro:
+    label: Intro
+    type:  textarea
+
+  text:
+    label: Text
+    type:  textarea

@@ -1,0 +1,65 @@
+Title: Student Blog
+
+----
+
+Pagetitle: Student Blog
+
+----
+
+Toptext: 
+
+----
+
+Bottomtext:
+
+## Our student bloggers are:
+
+### Yugo
+(image: 1-yugo.jpeg)
+Hey everyone! I'm Yugo and a member of Dave Seminar. My hometown is Okaya City in Nagano. My major is Global and International Communication. I'm interested in protecting the environment and helping others to understand how important this is for business. This seminar considers how to be kind to the environment.
+
+---
+
+### Nono
+Hi! My name is Nono and I'm from Shizuoka. I have been interested in Green Business because there were many green tea fields near my hometown house but they were cut down due to lack of young people wanting to do this kind of work. I know green business is tough, but doing things by hand will make me tough, too!
+
+---
+
+### Arisa
+(image: 3-arisa.jpg)
+Hello! I'm Arisa and I'm from Obihiro City in Hokkaido. My major is International Communication.
+The reason I joined this seminar is because I'm interested in possibilities which rural areas have because my hometown is also a local area and there are many good points. I want to know mechanism of green business and I believe that it will make society better. I'd like to enjoy Prucha Seminar and contribute to my hometown.
+
+---
+
+### Yamachan
+(image: 4-yamachan.png)
+Nice to meet you!  I'm Arisa Yamamoto and my nickname is Yamachan.  I'm from Hokuto City in Yamanashi Prefecture and my university major is International Communication.
+Why I joined this seminar?   Firstly, I am interested in green business. Children who live in my hometown learn how to grow rice or potatoes by their hands and I also learned it in the same way as they do. However, most children are not involved in this field when they become adults. I want people to know how green life is beneficial for both the environment and for themselves through studying and practicing the green business approach. For that purpose, I will enjoy learning how to make business greener in Prucha Seminar.  Thank you!
+
+----
+
+Bloggers:
+
+- 
+  name: Yugo
+  image: [ ]
+  intro: "Hey everyone! I'm Yugo and a member of Dave Seminar. My hometown is Okaya City in Nagano. My major is Global and International Communication. I'm interested in protecting the environment and helping others to understand how important this is for business. This seminar considers how to be kind to the environment."
+- 
+  name: Nono
+  image: [ ]
+  intro: "Hi! My name is Nono and I'm from Shizuoka. I have been interested in Green Business because there were many green tea fields near my hometown house but they were cut down due to lack of young people wanting to do this kind of work. I know green business is tough, but doing things by hand will make me tough, too!"
+- 
+  name: Arisa
+  image: [ ]
+  intro: |
+    Hello! I'm Arisa and I'm from Obihiro City in Hokkaido. My major is International Communication.
+    
+    The reason I joined this seminar is because I'm interested in possibilities which rural areas have because my hometown is also a local area and there are many good points. I want to know mechanism of green business and I believe that it will make society better. I'd like to enjoy Prucha Seminar and contribute to my hometown.
+- 
+  name: Yamachan
+  image: [ ]
+  intro: |
+    Nice to meet you!  I'm Arisa Yamamoto and my nickname is Yamachan.  I'm from Hokuto City in Yamanashi Prefecture and my university major is International Communication.
+    
+    Why I joined this seminar?   Firstly, I am interested in green business. Children who live in my hometown learn how to grow rice or potatoes by their hands and I also learned it in the same way as they do. However, most children are not involved in this field when they become adults. I want people to know how green life is beneficial for both the environment and for themselves through studying and practicing the green business approach. For that purpose, I will enjoy learning how to make business greener in Prucha Seminar.  Thank you!

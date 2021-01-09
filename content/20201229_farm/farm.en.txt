@@ -1,0 +1,37 @@
+Title: Farm
+
+----
+
+Slug: farm
+
+----
+
+Toptext: 
+
+----
+
+Studentblogtext: Our students have a blog of their own! So be sure to check out what they've been up to!
+
+----
+
+Pagetitle: 
+
+----
+
+Date: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Gallery: 
+
+----
+
+Bottomtext: 

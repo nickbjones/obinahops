@@ -1,0 +1,385 @@
+@import "../shared.scss";
+.ns-home {
+  position: relative;
+  .hero {
+    position: relative;
+    overflow: hidden;
+    @include sp-only {
+      height: 100vh;
+    }
+    @include pc-only {
+      height: 56.25vw;
+    }
+    .language {
+      position: absolute;
+      top: 1rem;
+      right: 3%;
+      z-index: 1;
+    }
+    .toggle-language {
+      font-size: 1.25rem;
+      color: $white;
+      text-decoration: none;
+    }
+    .hero-video {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      background-color: $black;
+    }
+    @include sp-only {
+      .hero-video {
+        position: absolute;
+        top: 0;
+        left: -100%;
+      }
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &.overlay-gray {
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+      &.overlay-dot {
+        background: url($contentSrc + '/dot.png') repeat left top;
+      }
+    }
+    .h1 {
+      flex: 0 1 auto;
+      max-width: 26rem;
+      margin: 0;
+      text-align: center;
+      .logo {
+        width: 80%;
+      }
+    }
+    .h2 {
+      flex: 0 1 auto;
+      margin: 1.5rem 0;
+      padding: 0 1rem;
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+      color: $white;
+    }
+    .navigation {
+      display: flex;
+      list-style-type: none;
+      margin: 1rem 0;
+      padding: 0;
+      .nav-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        border-right: 1px solid $white;
+        @include sp-only {
+          flex: 1 1 0;
+        }
+        @include pc-only {
+          flex: 1 1 auto;
+        }
+        &:last-child {
+          border-right: none;
+        }
+        .nav-link {
+          text-align: center;
+          text-transform: uppercase;
+          font-family: Arial, Helvetica, sans-serif;
+          color: $white;
+          text-decoration: none;
+          white-space: nowrap;
+          @include sp-only {
+            padding: 0 0.7rem;
+            font-size: 1rem;
+          }
+          @include pc-only {
+            padding: 0 1rem;
+            font-size: 1.1rem;
+          }
+          @include sp-only {
+            padding: 0 1rem;
+          }
+          @include pc-only {
+            padding: 0.5rem 1.5rem;
+          }
+        }
+      }
+    }
+    .social-icon path {
+      fill: $white;
+    }
+    .copyright {
+      position: absolute;
+      bottom: 2rem;
+      width: 100%;
+    }
+  }
+  .first-section {
+    padding-bottom: 4rem;
+    .points {
+      display: flex;
+      padding: 2rem 0;
+      @include sp-only {
+        flex-direction: column;
+        align-items: center;
+      }
+      @include pc-only {
+        flex-direction: row;
+      }
+    }
+    .point {
+      @include sp-only {
+        flex: 1 1 auto;
+      }
+      @include pc-only {
+        flex: 1 1 0;
+      }
+      max-width: 18rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem;
+      text-align: center;
+      line-height: 1.7;
+      &::before {
+        content: '';
+        display: block;
+        background-image: url($contentSrc + '/hops-isolated-white-background_158023-8.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 8rem;
+        height: 5rem;
+        margin-bottom: 1rem;
+      }
+    }
+    .point-em {
+      font-weight: bolder;
+      color: $obinaGreen;
+      margin: 0;
+      font-size: 1.3rem;
+    }
+    .point-txt {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    .button-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .wood-section {
+    position: relative;
+    padding: 12rem 0;
+    background-image: url($contentSrc + '/photo-1506968430777-bf7784a87f23.jpg');
+    background-size: cover;
+    overflow: hidden;
+    @include sp-only {
+      padding: 5rem 0;
+    }
+    @include pc-only {
+      padding: 12rem 0;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      top: -2vw;
+      left: 0;
+      width: 100%;
+      height: 4vw;
+      background-color: $white;
+      box-shadow: inset 0px -10px 5px -8px rgba(0,0,0,1);
+      transform: rotate(-1.5deg);
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -2vw;
+      left: 0;
+      width: 100%;
+      height: 4vw;
+      background-color: $white;
+      box-shadow: inset 0px 10px 5px -8px rgba(0,0,0,1);
+      transform: rotate(-1.5deg);
+    }
+    .our-story {
+      background-color: $white;
+      box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+      @include sp-only {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+      }
+      @include pc-only {
+        padding: 4rem 3rem;
+      }
+    }
+    .h2 {
+      margin: 1.5rem 0;
+      padding: 0 1rem;
+      text-align: center;
+      color: $hopGreenLt;
+      @include sp-only {
+        font-size: 2rem;
+      }
+      @include pc-only {
+        font-size: 3rem;
+      }
+    }
+    .markdown {
+      @include sp-only {
+        font-size: 1rem;
+      }
+      @include pc-only {
+        font-size: 1.1rem;
+        margin-left: 2rem;
+      }
+    }
+    .link {
+      color: $obinaGreen;
+      margin-bottom: 0;
+      text-decoration: none;
+      @include sp-only {
+        font-size: 1rem;
+      }
+      @include pc-only {
+        margin-left: 2rem;
+        font-size: 1.1rem;
+      }
+      & > a {
+        color: $obinaGreen;
+        font-weight: bold;
+      }
+    }
+    .half-width {
+      display: flex;
+    }
+    .story1 {
+      @include sp-only {
+        flex-direction: column;
+      }
+      @include pc-only {
+        flex-direction: row;
+      }
+    }
+    .story2 {
+      @include sp-only {
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+      }
+      @include pc-only {
+        flex-direction: row;
+        margin-top: 1rem;
+      }
+    }
+      .img {
+        @include pc-only {
+          margin-top: 2rem;
+        }
+      }
+      .img1 {
+        @include sp-only {
+          width: 100%;
+          max-width: 6rem;
+        }
+        @include pc-only {
+          width: 100%;
+          min-width: 10rem;
+        }
+      }
+      .img2 {
+        box-shadow: 0px 2px 10px #bbbbbb;
+        @include sp-only {
+          width: 100%;
+        }
+        @include pc-only {
+          width: 80%;
+          margin-left: 2rem;
+        }
+      }
+  }
+  .about-us-top {
+    margin-top: 4rem;
+  }
+  .title {
+    margin: 1rem 0 2rem;
+    text-align: center;
+    color: $hopGreenDk;
+    font-size: 3rem;
+    @include sp-only {
+      font-size: 2rem;
+    }
+    @include pc-only {
+      font-size: 3rem;
+    }
+  }
+  .fixed-banner {
+    width: 100%;
+    height: 18rem;
+    margin: 4rem 0;
+    @include sp-only {
+      margin: 2rem 0;
+    }
+    @include pc-only {
+      margin: 4rem 0;
+    }
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .beers-banner {
+    width: 100%;
+    @include sp-only {
+      margin: 2rem 0;
+    }
+    @include pc-only {
+      margin: 4rem 0;
+    }
+  }
+  .textbody {
+    @include sp-only {
+      margin: 1rem;
+    }
+    @include pc-only {
+      margin: 4rem 2rem 0;
+    }
+  }
+  .address {
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    background-color: $gallery;
+    border: 1px solid $silver;
+    @include sp-only {
+      padding: 0 1rem;
+    }
+  }
+  .social-link {
+    margin-left: 1rem;
+    color: $black;
+  }
+  .follow-us {
+    font-weight: bold;
+    svg {
+      height: 30px;
+      position: relative;
+      top: 8px;
+      margin-right: 10px;
+    }
+  }
+  .instagram-qr {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}

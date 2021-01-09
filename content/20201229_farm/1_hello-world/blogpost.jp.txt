@@ -1,0 +1,24 @@
+Title: Hello World
+
+----
+
+Blogtitle: ハローワールド！
+
+----
+
+Date: 2020-05-31 01:45
+
+----
+
+Text:
+
+新しいObinaHopsウェブサイトをローンチしました！ ですから、周りを見てください。将来的には新しいものを追加する予定なので、必ず確認してください。 ファームで行っている素晴らしいことをみんなに更新することに興奮しています！
+
+### かんぱい!
+
+(image: two-persons-holding-drinking-glasses-filled-with-beer-sm-crop-comp.jpg)
+<sub><sup>Photo by Tembela Bohle from Pexels</sup></sub>
+
+----
+
+Author: - emoCrueB

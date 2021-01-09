@@ -1,0 +1,53 @@
+// $contentSrc: 'http://www.nbjones.com/public/obina';
+$contentSrc: '/assets/images';
+
+// breakpoints
+$breakpoint: 600px;
+@mixin sp-only { @media (max-width: $breakpoint) { @content; } }
+@mixin pc-only { @media (min-width: $breakpoint + 1) { @content; } }
+
+// colors
+$black: #000000;
+$doveGray: #666666;
+$dustyGray: #999999;
+$silver: #cccccc;
+$gallery: #eeeeee;
+$white: #ffffff;
+$obinaGreen: #5c9e37;
+$hopGreenLt: #a0be29;
+$hopGreenMd: #4aa046;
+$hopGreenDk: #347031;
+
+// global resets
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  margin: 0;
+}
+main {
+  overflow: hidden;
+}
+
+// markdown overrides
+.markdown {
+  &, p {
+    font-size: 1.1rem;
+    line-height: 2;
+  }
+  img {
+    display: block;
+    margin: 2rem auto;
+  }
+  hr {
+    margin: 2rem;
+    border: none;
+    border-bottom: 1px solid $silver;
+  }
+  pre {
+    background-color: #efefef;
+    padding: 0.5rem 1rem;
+    overflow: scroll;
+  }
+}

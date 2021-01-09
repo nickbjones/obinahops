@@ -1,0 +1,183 @@
+@import "./settings.scss";
+
+// utilities
+.hide-sp {
+  @include sp-only {
+    display: none;
+  }
+}
+.hide-pc {
+  @include pc-only {
+    display: none;
+  }
+}
+.layout {
+  max-width: 750px;
+  margin: 0 auto;
+}
+.layout-half {
+  max-width: 425px;
+}
+.center {
+  text-align: center;
+}
+.h2 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-top: 0;
+}
+.h3 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+// shared
+.button {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.7rem 3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: $black;
+  color: $white;
+  border: 2px solid $black;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: box-shadow 0.3s;
+  @include sp-only {
+    padding: 0.3rem 3rem;
+  }
+  @include pc-only {
+    padding: 0.7rem 3rem;
+  }
+  &:hover {
+    transition: box-shadow 0.3s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  }
+  &.button--white {
+    color: $black;
+    background-color: $white;
+    border: 2px solid $white;
+  }
+  &.button--white:hover {
+    color: $white;
+  }
+  &.button--obina-green {
+    color: $white;
+    background-color: $obinaGreen;
+    border: 2px solid $obinaGreen;
+  }
+  &.button--hop-green-lt {
+    color: $hopGreenLt;
+    background-color: $hopGreenLt;
+    border: 2px solid $hopGreenLt;
+  }
+  &.button--hop-green-md {
+    color: $hopGreenMd;
+    background-color: $hopGreenMd;
+    border: 2px solid $hopGreenMd;
+  }
+  &.button--hop-green-dk {
+    color: $hopGreenDk;
+    background-color: $hopGreenDk;
+    border: 2px solid $hopGreenDk;
+  }
+  &.button--solid {
+    color: $white;
+  }
+  &.button--outline {
+    background-color: transparent;
+  }
+}
+.social-icon {
+  padding: 0 5px;
+}
+.copyright-text,
+.copyright-link {
+  margin: 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: $dustyGray;
+}
+.toggle-language {
+  color: $dustyGray;
+  text-decoration: none;
+  font-size: 1.1rem;
+  &.active {
+    display: none;
+  }
+}
+
+// header
+.ns-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0.5rem 1rem;
+  .header-right {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    @include sp-only {
+      margin: 1rem 0 0;
+    }
+    @include pc-only {
+      margin: 1.5rem 0 1rem 0;
+    }
+  }
+  .links {
+    flex: 0 1 auto;
+    display: flex;
+    white-space: nowrap;
+    @include sp-only {
+      margin: 0 0 0 auto;
+    }
+    @include pc-only {
+      margin: 0 auto 0 2rem;
+    }
+  }
+  .nav-link {
+    flex: 0 0 0;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: $dustyGray;
+    transition: color 0.3s ease;
+    &:hover {
+      color: $doveGray;
+      transition: color 0.3s ease;
+    }
+    &.active {
+      color: $obinaGreen;
+      border-bottom: 1px solid;
+    }
+  }
+  .toggle-language {
+    flex: 0 1 auto;
+  }
+  .language {
+    @include sp-only {
+      margin: 0 auto 0 1rem;
+    }
+    @include pc-only {
+      margin: 0 0 0 1rem;
+    }
+  }
+}
+
+// footer
+.ns-footer {
+  .footer-inner {
+    margin: 4rem 0 1rem;
+    padding-top: 4rem;
+    text-align: center;
+    border-top: 1px solid $silver;
+  }
+  .social-wrapper {
+    padding: 2rem 0 4rem;
+  }
+}

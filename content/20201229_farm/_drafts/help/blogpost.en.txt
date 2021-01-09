@@ -1,0 +1,75 @@
+Title: Help
+
+----
+
+Date: 2020-07-11 17:40
+
+----
+
+Text:
+
+## Formatting text
+
+When making a profile or post, there are some guidelines you should follow in order to custom format content and also for the styling to be consistent throughout the website. This type of formatting is called "Markdown" and is pretty simple. Here are some of the most important rules:
+
+### Line breaks
+Press enter to create a line break. If you want a new paragraph, press enter twice:
+
+```
+My first line
+My second line
+
+Another paragraph
+```
+
+### Headlines
+Add a hash "#" to the front of the text that you want to be a headline:
+
+```
+# Headline 1
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+## Headline 2
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+### Headline 3
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+#### Headline 4
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+```
+
+### Lists
+Add a dash "-" or number to the front of the text that you want to be in a list:
+
+```
+- Homer
+- Marge
+
+1. Bart
+2. Lisa
+```
+
+### Links
+The simplest way to create a link is to wrap the URL in "<" and ">":
+
+```
+<obinahopfarm.com>
+```
+
+### Images
+The simplest way to add an image is by the following:
+(image: myawesomepicture.jpg)
+(video: https://youtu.be/qV-FHyEfeaM)
+
+```
+(image: myawesomepicture.jpg)
+
+(video: https://youtu.be/l8P6qHkJpWk)
+```
+
+This is a basic list of some of the more important Markdown rules. Read more about the formatting text here: https://getkirby.com/docs/reference/text/markdown or ask me!
+
+----
+
+Blogtitle: Help

@@ -1,0 +1,28 @@
+Title: Hello World!
+
+----
+
+Slug: hello-world
+
+----
+
+Blogtitle: Hello world!
+
+----
+
+Author: - emoCrueB
+
+----
+
+Date: 2020-05-31 01:45
+
+----
+
+Text:
+
+We just launched the new ObinaHops website! So please take a look around, and be sure to check back as we will be adding new stuff in the future. We're excited to update everyone on the awesome stuff we're doing at the farm!
+
+### Cheers!
+
+(image: two-persons-holding-drinking-glasses-filled-with-beer-sm-crop-comp.jpg)
+<sub><sup>Photo by Tembela Bohle from Pexels</sup></sub>

@@ -1,0 +1,43 @@
+title: Brewery
+num: date
+icon: 📖
+
+options:
+  delete: false
+  changeStatus: false
+  changeSlug: false
+  duplicate: false
+
+columns:
+  - width: 1/1
+    fields:
+      # Pagetitle:
+      #   label: Title
+      #   type: text
+      #   width: 1/2
+      TopText:
+        label: Top text
+        type: textarea
+        width: 2/3
+      BottomText:
+        label: Bottom text
+        type: textarea
+        width: 2/3
+  - width: 1/4
+    sections:
+      drafts:
+        extends: sections/brewery
+        headline: Drafts
+        status: draft
+  - width: 1/4
+    sections:
+      unlisted:
+        extends: sections/brewery
+        headline: In Review
+        status: unlisted
+  - width: 1/4
+    sections:
+      listed:
+        extends: sections/brewery
+        headline: Published
+        status: listed

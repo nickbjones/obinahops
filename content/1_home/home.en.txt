@@ -1,0 +1,121 @@
+Title: Home
+
+----
+
+Tagline: 100% Natural American Hops
+
+----
+
+Hook1toptext: 17 types of hops
+
+----
+
+Hook1bottomtext: Imported from Portland, USA
+
+----
+
+Hook2toptext: Domestically-grown
+
+----
+
+Hook2bottomtext: American aromatic and bittering hops
+
+----
+
+Hook3toptext: Sustainable
+
+----
+
+Hook3bottomtext: Environmentally friendly growing techniques
+
+----
+
+Shoplinktext: Learn more...
+
+----
+
+Ourstorytitle: Our Story
+
+----
+
+Ourstory1text: Obina Hops began operation in 2019, growing 8 different types of American hops.  Near the city of Kofu, in beautiful Yamanashi Prefecture, Obina is a luscious mountain community rich in soil, water and sunshine; a perfect environmental combination for growing hops.  In our second year, and now growing 17 types of American hops, we are dedicated to increasing output and variety in order to provide brewers around Japan with fresh American hops at an affordable price.
+
+----
+
+Ourstory1image:
+
+- margo555111200043.jpg
+
+----
+
+Aboutlinktext: Read more...
+
+----
+
+Ourstory2text: As a lover of Craft Beer, and a native of Portland, Oregon, Dave decided to import our hops from Oregon in 2019, and we have never looked back.  Our hops are growing incredibly well on our farm and we have now constructed our third hop yard with more projects scheduled.
+
+----
+
+Ourstory2image:
+
+- img_1900.jpg
+
+----
+
+Bottomtext: Please check back with us and follow our progress with the farm, our hop business, and what we're doing in the community: (link: /farm text: Farm)
+
+----
+
+Ourstory1imageposition: 
+
+----
+
+Ourstory2imageposition: right
+
+----
+
+Pagetitle: About Us
+
+----
+
+Banner1sp:
+
+- photo-1495107334309-fcf20504a5ab.jpeg
+
+----
+
+Textbody1:
+
+Obina Hops is dedicated to growing the best of American hops on the best of Japanese soil, tenderly grown natural environment of Obina, Yamanashi Prefecture, Japan. We offer local brewers a wide variety of aroma and bittering hops for American-style craft brews
+
+Obina Hops began operation in 2019, growing 8 different types of American hops.  Near the city of Kofu, in beautiful Yamanashi Prefecture, Obina is a luscious mountain community rich in soil, water and sunshine; a perfect environmental combination for growing hops.  In our second year, and now growing 17 types of American hops, we are dedicated to increasing output and variety in order to provide brewers around Japan with fresh American hops at an affordable price.
+
+Craft beer has seen a jump in interest among Japanese in the past few years, and there are now over 300 craft breweries around Japan.  Hops are normally imported from hop growers in the US and other countries, so Japanese brewers must pay expensive air freight and refrigeration costs.  Wanting to build an extraordinary brewery that uses the freshest hops, we decided to begin our project by importing and growing American hops.  Hops grow best in the latitude zone between 35 and 55 degrees.  Yamanashi Prefecture, with its mountains, lush soil and plentiful sunshine, lies in this zone at a latitude of 35.6 degrees.
+
+----
+
+Banner2sp:
+
+- >
+  missy-fant-omigwm1i_ny-unsplash-cropped-sp.jpg
+
+----
+
+Banner2pc:
+
+- >
+  missy-fant-omigwm1i_ny-unsplash-cropped-pc.jpg
+
+----
+
+Textbody2:
+
+As a lover of Craft Beer, and a native of Portland, Oregon, Dave decided to import our hops from Oregon in 2019, and we have never looked back.  Our hops are growing incredibly well on our farm and we have now constructed our third hop yard with more projects scheduled.
+
+Our Goal:  Obina Hops aims to provide a wide selection of fresh, high quality, locally grown American hops to Japanese craft brewers.  We want local brewers to be able to get the hops they need without having to order and wait for them to be shipped from overseas.  We hope to work with other hop growers and craft beer lovers to increase the craft beer experience to a wider portion of Japanese society.  Because we love the natural environment, we strive to create a farming model that is based on a sustainable, environmentally-friendly growing technique.
+
+We hope that you can join us in our quest to make the best hops and help our local brewers make the more delicious beer!
+
+----
+
+Contacttext: Get in touch with us, we're friendly!

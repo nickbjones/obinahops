@@ -1,0 +1,133 @@
+title: Home
+icon: 🏠
+
+options:
+  delete: false
+  changeTitle: false
+  changeStatus: false
+  changeSlug: false
+  duplicate: false
+
+columns:
+  - width: 1/1
+    fields:
+      Tagline:
+        label: Tagline
+        type: text
+        width: 1/3
+  - width: 1/3
+    fields:
+      Hook1TopText:
+        label: Hook 1
+        type: text
+      Hook1BottomText:
+        label: 
+        type: text
+  - width: 1/3
+    fields:
+      Hook2TopText:
+        label: Hook 2
+        type: text
+      Hook2BottomText:
+        label: 
+        type: text
+  - width: 1/3
+    fields:
+      Hook3TopText:
+        label: Hook 3
+        type: text
+      Hook3BottomText:
+        label: 
+        type: text
+  - width: 1/1
+    fields:
+      shopLinkText:
+        label: Learn more link text
+        type: text
+        width: 1/3
+  - width: 1/1
+    fields:
+      ourStoryTitle:
+        label: Our Story title
+        type: text
+        width: 1/3
+  - width: 1/2
+    fields:
+      OurStory1Text:
+        label: Our Story text
+        type: textarea
+        width: 1/1
+  - width: 1/2
+    fields:
+      OurStory1Image:
+        label: Our Story image
+        type: files
+        max: 1
+  - width: 1/1
+    fields:
+      aboutLinkText:
+        label: Read more text
+        type: text
+        width: 1/3
+  - width: 1/2
+    fields:
+      OurStory2Text:
+        label: About Dave text
+        type: textarea
+        width: 1/1
+  - width: 1/2
+    fields:
+      OurStory2Image:
+        label: About Dave image
+        type: files
+        max: 1
+
+# from about page
+  - width: 1/1
+    fields:
+      Pagetitle:
+        label: About Us Title
+        type: text
+        width: 1/2
+  - width: 1/1
+    fields:
+      Banner1Sp:
+        label: Banner image 1
+        type: files
+        max: 1
+        width: 1/3
+      # Banner1Pc:
+      #   label: Banner image 1 (desktop)
+      #   type: files
+      #   max: 1
+      #   width: 1/3
+  - width: 1/1
+    fields:
+      TextBody1:
+        label: About Us Text Area 1
+        type: textarea
+        width: 2/3
+  - width: 1/1
+    fields:
+      Banner2Sp:
+        label: Banner image 2 (mobile)
+        type: files
+        max: 1
+        width: 1/3
+      Banner2Pc:
+        label: Banner image 2 (desktop)
+        type: files
+        max: 1
+        width: 1/3
+  - width: 1/1
+    fields:
+      TextBody2:
+        label: About Us Text Area 2
+        type: textarea
+        width: 2/3
+  - width: 1/1
+    fields:
+      ContactText:
+        label: Contact section text
+        type: textarea
+        width: 2/3

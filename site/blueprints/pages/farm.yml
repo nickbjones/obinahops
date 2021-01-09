@@ -1,0 +1,47 @@
+title: Farm
+num: date
+icon: 📖
+
+options:
+  delete: false
+  changeStatus: false
+  changeSlug: false
+  duplicate: false
+
+columns:
+  - width: 1/1
+    fields:
+      # Pagetitle:
+      #   label: Title
+      #   type: text
+      #   width: 1/2
+      TopText:
+        label: Top text
+        type: textarea
+        width: 2/3
+      BottomText:
+        label: Bottom text
+        type: textarea
+        width: 2/3
+      StudentBlogText:
+        label: Link to student blog text
+        type: text
+        width: 1/2
+  - width: 1/4
+    sections:
+      drafts:
+        extends: sections/farm
+        headline: Drafts
+        status: draft
+  - width: 1/4
+    sections:
+      unlisted:
+        extends: sections/farm
+        headline: In Review
+        status: unlisted
+  - width: 1/4
+    sections:
+      listed:
+        extends: sections/farm
+        headline: Published
+        status: listed
