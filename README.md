@@ -1,6 +1,6 @@
 # Running the server
 
-cd /Applications/MAMP/htdocs/obinahopfarm/
+cd /Applications/MAMP/htdocs/obinahops
 
 gulp watch
 gulp build

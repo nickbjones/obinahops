@@ -49,9 +49,9 @@
           <p class="point-txt"><?= $page->Hook3BottomText()->ktRaw() ?></p>
         </div>
       </div>
-      <div class="button-wrapper">
+      <!-- <div class="button-wrapper">
         <a class="button button--hop-green-lt button--outline" href="/<?= $kirby->language() ?>/about"><?= $page->ShopLinkText()->ktRaw() ?></a>
-      </div>
+      </div> -->
     </div>
   </div>
   <div class="wood-section">
