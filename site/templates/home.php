@@ -29,6 +29,7 @@
       <ul class="navigation">
         <li class="nav-item"><a class="nav-link" href="/<?= $kirby->language() ?>/farm"><?= page("farm")->title() ?></a></li>
         <li class="nav-item"><a class="nav-link" href="/<?= $kirby->language() ?>/brewery"><?= page("brewery")->title() ?></a></li>
+        <li class="nav-item"><a class="nav-link" href="/<?= $kirby->language() ?>/shop"><?= page("shop")->title() ?></a></li>
       </ul>
       <?php snippet('copyright') ?>
     </div>

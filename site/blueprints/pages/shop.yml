@@ -1,4 +1,4 @@
-title: Shop
+title: Error
 
 icon: ⛈
 
@@ -13,10 +13,11 @@ fields:
     label: Title
     type:  text
 
-  intro:
+  description:
     label: Intro
-    type:  textarea
+    type:  text
 
-  text:
-    label: Text
-    type:  textarea
+  image:
+    label: Image
+    type: files
+    max: 1
