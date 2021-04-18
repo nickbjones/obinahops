@@ -1,3 +1,4 @@
+<?php snippet('sale-button') ?>
 <footer class="ns-footer">
   <div class="layout">
     <div class="footer-inner">

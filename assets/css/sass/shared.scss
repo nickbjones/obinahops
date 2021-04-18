@@ -209,3 +209,92 @@
     padding: 2rem 0 4rem;
   }
 }
+
+
+@keyframes wiggle {
+  0% { transform: rotate(7deg); }
+ 95% { transform: rotate(7deg); }
+
+ 96% { transform: rotate(12deg); }
+ 97% { transform: rotate(2deg); }
+ 98% { transform: rotate(12deg); }
+ 99% { transform: rotate(2deg); }
+
+100% { transform: rotate(7deg); }
+}
+
+// sale button
+.sale {
+  position: fixed;
+  bottom: 2rem;
+  left: -10rem;
+  z-index: 999;
+  &.visible {
+    @include sp-only {
+      bottom: 1.5rem;
+      left: 5rem;
+    }
+    @include pc-only {
+      bottom: 3rem;
+      left: 10rem;
+    }
+  }
+
+  transition: left 0.3s;
+  animation: wiggle 10s infinite;
+
+  // taken from css-tricks
+  $burstColor: $hopGreenMd;
+  .burst-12 {
+    background: $burstColor;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 80px;
+      width: 80px;
+      background: $burstColor;
+    }
+    &:before {
+      transform: rotate(30deg);
+    }
+    &:after {
+      transform: rotate(60deg);
+    }
+  }
+  .sale-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scaleX(2.1);
+  }
+  .sale-text {
+    position: absolute;
+    width: 300%;
+    color: white;
+    transform: scaleX(.45) rotate(-3deg);
+    font-style: italic;
+    z-index: 999;
+    font-family: sans-serif;
+  }
+  .line1 {
+    margin: 0;
+    font-weight: bold;
+    color: yellow;
+  }
+  .line2 {
+    margin: 0.3rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .line3 {
+    margin: 0;
+    color: lightgray;
+  }
+}
