@@ -72,7 +72,7 @@ Ourstory2image:
 
 ----
 
-InstagramTitle: Instagram フィード
+InstagramTitle: 最近の活動
 
 ----
 
