@@ -1,0 +1,19 @@
+.ns-instagram {
+  .instagram-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .instagram-item {
+      flex: 0 0 20rem;
+      margin: 0 1rem;
+    }
+    .instagram-image {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .instagram-link {
+    margin-top: 1rem;
+    text-align: center;
+  }
+}

@@ -74,6 +74,10 @@ Ourstory2imageposition: right
 
 ----
 
+InstagramTitle: Instagram Feed
+
+----
+
 Pagetitle: About Us
 
 ----

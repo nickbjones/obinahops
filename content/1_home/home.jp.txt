@@ -72,6 +72,10 @@ Ourstory2image:
 
 ----
 
+InstagramTitle: Instagram フィード
+
+----
+
 Pagetitle: 私たちの物語
 
 ----

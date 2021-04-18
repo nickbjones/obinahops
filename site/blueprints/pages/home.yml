@@ -81,6 +81,13 @@ columns:
         label: About Dave image
         type: files
         max: 1
+  
+# instagram section
+  - width: 1/1
+    fields:
+      InstagramTitle:
+        label: Instagram Title
+        type: text
 
 # from about page
   - width: 1/1

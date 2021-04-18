@@ -79,6 +79,7 @@
       </div>
     </div>
   </div>
+  <?php snippet('instagram', ['title' => $page->InstagramTitle()->ktRaw()]) ?>
   <div class="about-us-top layout">
     <h1 class="title"><?= $page->Pagetitle()->ktRaw() ?></h1>
     <div class="textbody">
