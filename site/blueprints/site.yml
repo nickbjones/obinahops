@@ -12,6 +12,7 @@ columns:
           - farm
           - brewery
           - blog
+          - shop
           - error
 
   - width: 1/3
