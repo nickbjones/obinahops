@@ -29,6 +29,7 @@
       <ul class="navigation">
         <li class="nav-item"><a class="nav-link" href="/<?= $kirby->language() ?>/farm"><?= page("farm")->title() ?></a></li>
         <li class="nav-item"><a class="nav-link" href="/<?= $kirby->language() ?>/brewery"><?= page("brewery")->title() ?></a></li>
+        <li class="nav-item"><a class="nav-link" href="/<?= $kirby->language() ?>/shop"><?= page("shop")->title() ?></a></li>
       </ul>
       <?php snippet('copyright') ?>
     </div>
@@ -59,18 +60,18 @@
       <div class="our-story">
         <h2 class="h2"><?= $page->OurStoryTitle()->ktRaw() ?></h2>
         <div class="half-width story1">
-          <div class="left center">
+          <div class="center">
             <img class="img img1" src="<?= $page->OurStory1Image()->toFile()->url() ?>" alt="">
           </div>
-          <div class="right">
+          <div class="">
             <div class="markdown"><?= $page->OurStory1Text()->kt() ?></div>
           </div>
         </div>
         <div class="half-width story2">
-          <div class="left">
+          <div class="">
             <div class="markdown"><?= $page->OurStory2Text()->kt() ?></div>
           </div>
-          <div class="right">
+          <div class="">
             <img class="img img2" src="<?= $page->OurStory2Image()->toFile()->url() ?>" alt="">
           </div>
         </div>
