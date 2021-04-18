@@ -1,4 +1,6 @@
-<?php snippet('sale-button') ?>
+<?php if(site()->paypalEnabled() == 'enabled'): ?>
+  <?php snippet('sale-button') ?>
+<?php endif ?>
 <footer class="ns-footer">
   <div class="layout">
     <div class="footer-inner">

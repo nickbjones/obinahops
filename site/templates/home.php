@@ -29,7 +29,9 @@
       <ul class="navigation">
         <li class="nav-item"><a class="nav-link" href="/<?= $kirby->language() ?>/farm"><?= page("farm")->title() ?></a></li>
         <li class="nav-item"><a class="nav-link" href="/<?= $kirby->language() ?>/brewery"><?= page("brewery")->title() ?></a></li>
-        <li class="nav-item"><a class="nav-link" href="/<?= $kirby->language() ?>/shop"><?= page("shop")->title() ?></a></li>
+        <?php if(site()->paypalEnabled() == 'enabled'): ?>
+          <li class="nav-item"><a class="nav-link" href="/<?= $kirby->language() ?>/shop"><?= page("shop")->title() ?></a></li>
+        <?php endif ?>
       </ul>
     </div>
   </div>
@@ -103,7 +105,7 @@
       <?php if (site()->phone()->isNotEmpty()) : ?><p><?= $phoneText ?>: <a href="tel:<?= $site->phone() ?>"><?= $site->phone() ?></a></p><?php endif ?>
       <?php if (site()->fax()->isNotEmpty()) : ?><p><?= $faxText ?>: <?= $site->fax() ?></p><?php endif ?>
     </div>
-    <div>
+    <div class="follow">
       <?php if (site()->youtube()->isNotEmpty()) : ?>
         <p class="follow-us"><a href="<?= $site->youtube() ?>"><?= file_get_contents('assets/svgs/Youtube_3.svg') ?><?= $followUsOnYouTube ?></a></p>
       <?php endif ?>

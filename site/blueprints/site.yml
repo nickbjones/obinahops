@@ -40,12 +40,22 @@ columns:
       youtube:
         label: YouTube
         type: text
-      linkedin:
-        label: LinkedIn
-        type: text
-      twitter:
-        label: Twitter
-        type: text
+      # linkedin:
+      #   label: LinkedIn
+      #   type: text
+      # twitter:
+      #   label: Twitter
+      #   type: text
+
+      separator:
+        type: line
+
+      paypalEnabled:
+        label: Paypal
+        type: select
+        options:
+          - enabled
+          - disabled
 
 # fields:
 

@@ -125,7 +125,7 @@
     }
   }
   .first-section {
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
     .points {
       display: flex;
       padding: 2rem 0;
@@ -371,6 +371,9 @@
     @include sp-only {
       padding: 0 1rem;
     }
+  }
+  .follow {
+    padding: 0 1rem;
   }
   .social-link {
     margin-left: 1rem;

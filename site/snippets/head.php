@@ -1,12 +1,4 @@
 <?php
-  // globally defined functions
-  function buildSocialLink($name,$content) {
-    $str = '<a class="social-icon '.$name.'" href="'.$content.'">';
-    $str .= file_get_contents('svgs/'.$name.'.html',FILE_USE_INCLUDE_PATH);
-    $str .= '</a>';
-    echo $str;
-  }
-
   // disable site
   if ($site->disabled() == 'yes') snippet('disabled');
 ?>
