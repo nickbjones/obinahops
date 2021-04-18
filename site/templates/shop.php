@@ -29,3 +29,10 @@
 </main>
 
 <?php snippet('footer') ?>
+
+<style>
+  /* hide the sale button on the shop page */
+  #sale {
+    display: none;
+  }
+</style>

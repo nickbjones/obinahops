@@ -31,7 +31,6 @@
         <li class="nav-item"><a class="nav-link" href="/<?= $kirby->language() ?>/brewery"><?= page("brewery")->title() ?></a></li>
         <li class="nav-item"><a class="nav-link" href="/<?= $kirby->language() ?>/shop"><?= page("shop")->title() ?></a></li>
       </ul>
-      <?php snippet('copyright') ?>
     </div>
   </div>
   <div class="first-section">
@@ -50,9 +49,6 @@
           <p class="point-txt"><?= $page->Hook3BottomText()->ktRaw() ?></p>
         </div>
       </div>
-      <!-- <div class="button-wrapper">
-        <a class="button button--hop-green-lt button--outline" href="/<?= $kirby->language() ?>/about"><?= $page->ShopLinkText()->ktRaw() ?></a>
-      </div> -->
     </div>
   </div>
   <div class="wood-section">
@@ -75,7 +71,6 @@
             <img class="img img2" src="<?= $page->OurStory2Image()->toFile()->url() ?>" alt="">
           </div>
         </div>
-        <p><a class="link" href="/<?= $kirby->language() ?>/about"><?= $readMoreText ?>...</a></p>
       </div>
     </div>
   </div>
