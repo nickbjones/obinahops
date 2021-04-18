@@ -1,0 +1,23 @@
+title: Shop
+
+icon: 💰
+
+options:
+  delete: false
+  changeTitle: false
+  changeStatus: false
+  duplicate: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  description:
+    label: Intro
+    type:  text
+
+  image:
+    label: Image
+    type: files
+    max: 1

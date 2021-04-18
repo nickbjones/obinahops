@@ -21,6 +21,34 @@
 .center {
   text-align: center;
 }
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+@include sp-only {
+  .center-sp {
+    text-align: center;
+  }
+  .left-sp {
+    text-align: left;
+  }
+  .right-sp {
+    text-align: right;
+  }
+}
+@include pc-only {
+  .center-pc {
+    text-align: center;
+  }
+  .left-pc {
+    text-align: left;
+  }
+  .right-pc {
+    text-align: right;
+  }
+}
 .h2 {
   font-size: 3rem;
   font-weight: normal;

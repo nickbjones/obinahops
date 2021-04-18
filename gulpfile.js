@@ -8,6 +8,7 @@ const srcFiles = [
   './assets/css/sass/pages/about.scss',
   './assets/css/sass/pages/blog.scss',
   './assets/css/sass/pages/home.scss',
+  './assets/css/sass/pages/shop.scss',
 ];
 const watchDirs = ['./assets/css/sass/*.scss','./assets/css/sass/pages/*.scss'];
 const destDir = './assets/css';

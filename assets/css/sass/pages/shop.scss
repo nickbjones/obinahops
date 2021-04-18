@@ -1,0 +1,41 @@
+@import "../shared.scss";
+.ns-shop {
+  .row {
+    display: flex;
+    @include sp-only {
+      flex-direction: column;
+    }
+    @include pc-only {
+      flex-direction: row;
+    }
+  }
+  .col {
+    flex: 0 1 50%;
+    padding: 0 1rem;
+  }
+  .product-image {
+    max-width: 300px;
+    @include pc-only {
+      margin-top: 3rem;
+    }
+  }
+  .product-title {
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: normal;
+  }
+  .limited-quantity {
+    color: red;
+    font-style: italic;
+  }
+  .product-price {
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  .quantity-select-wrapper {
+    margin-bottom: 1rem;
+  }
+  .quantity-select {
+    margin-left: 0.5rem;
+  }
+}
