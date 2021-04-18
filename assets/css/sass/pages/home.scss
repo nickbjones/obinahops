@@ -177,6 +177,13 @@
       display: flex;
       justify-content: center;
     }
+    .campfire-link {
+      border-color: #f64744;
+      .campfire-icon {
+        height: 24px;
+        margin-bottom: -4px;
+      }
+    }
   }
   .wood-section {
     position: relative;
