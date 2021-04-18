@@ -17,8 +17,7 @@
     target: "instagram-container",
     limit: 3,
     resolution: 'low_resolution',
-    // should be set
-    accessToken: '',
+    accessToken: 'IGQVJVMVVrZA284SFpYdm5kdjBDR2VUa2MyYWxlR2tYX0tXd2JvQ08waXQySkJjSVAyblZAUcWNTdkFhZAkZA2VFlHVXppYjN1YjBQY21NVWROZAk1MOTM3OE1wZAlJKSWVZAWEE5WjRtVTl4T3dxZAk1hNzI0YwZDZD',
     template: '<div class="instagram-item"><img class="instagram-image" src="{{image}}" /><p class="instagram-description">{{caption}}</p></div>',
   });
   userFeed.run();
