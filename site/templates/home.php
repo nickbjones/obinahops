@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="button-wrapper">
-        <a class="button button--white campfire-link" href="https://camp-fire.jp/projects/319882/preview?token=3bl9g1vw" target="_blank">
+        <a class="button button--white campfire-link" href="https://camp-fire.jp/projects/view/319882" target="_blank">
           <img class="campfire-icon" src="<?= $contentSrc ?>/images/campfire.png" alt="">
         </a>
       </div>
