@@ -31,21 +31,21 @@ columns:
         type: tel
   - width: 1/3
     fields:
-      facebook:
-        label: Facebook
-        type: text
       instagram:
         label: Instagram
         type: text
       youtube:
         label: YouTube
         type: text
-      # linkedin:
-      #   label: LinkedIn
-      #   type: text
-      # twitter:
-      #   label: Twitter
-      #   type: text
+      facebook:
+        label: Facebook
+        type: text
+      linkedin:
+        label: LinkedIn
+        type: text
+      twitter:
+        label: Twitter
+        type: text
 
       separator:
         type: line

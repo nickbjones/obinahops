@@ -1,7 +1,7 @@
 <?php
   $seeMoreOnInstagram = $kirby->language() == "en" ? "See more on Instagram" : "Instagramで続きを見る";
   $igIcon = file_get_contents('svgs/instagram.html',FILE_USE_INCLUDE_PATH);
-  $template = '<div class="ig-item"><div class="ig-card"><img class="ig-image" src="{{image}}" /><a class="ig-link" href="{{link}}"></a><p class="ig-description">{{caption}}</p></div></div>';
+  $template = '<div class="ig-item"><div class="ig-card"><img class="ig-image" src="{{image}}" /><a class="ig-link" href="{{link}}" target="_blank"></a><p class="ig-description">{{caption}}</p></div></div>';
 ?>
 
 <div class="ns-instagram">

@@ -11,7 +11,7 @@
   $followUsOnFacebook = $kirby->language() == "en" ? "Follow us on Facebook." : "Facebookでフォローして.";
   $followUsOnLinkedIn = $kirby->language() == "en" ? "Follow us on LinkedIn." : "LinkedInでフォローして.";
   $followUsOnTwitter = $kirby->language() == "en" ? "Follow us on Twitter." : "Twitterでフォローして.";
-  $scanInstagramQrCode = $kirby->language() == "en" ? "Or scan the QR code to follow our Instagram account:" : "または、QRコードをスキャンして、Instagramアカウントをフォローして:";
+  $scanInstagramQrCode = $kirby->language() == "en" ? "Scan the QR code to follow our Instagram account:" : "QRコードをスキャンして、Instagramアカウントをフォローして:";
 ?>
 <?php snippet('head') ?>
 <?= css('assets/css/home.css') ?>
@@ -106,13 +106,17 @@
       <?php if (site()->fax()->isNotEmpty()) : ?><p><?= $faxText ?>: <?= $site->fax() ?></p><?php endif ?>
     </div>
     <div class="follow">
-      <?php if (site()->youtube()->isNotEmpty()) : ?>
-        <p class="follow-us"><a href="<?= $site->youtube() ?>"><?= file_get_contents('assets/svgs/Youtube_3.svg') ?><?= $followUsOnYouTube ?></a></p>
-      <?php endif ?>
+      <p class="center"><?= $scanInstagramQrCode ?></p>
+      <img class="instagram-qr" src="<?= $contentSrc ?>/images/instagram-qr.jpg" alt="">
+      <?php /* temporarily disable the follow links */ $disableFollowLinks = true; ?>
+      <?php if (!$disableFollowLinks) : ?>
       <?php if (site()->instagram()->isNotEmpty()) : ?>
         <p class="follow-us"><a href="<?= $site->instagram() ?>"><?= file_get_contents('assets/svgs/Instagram_3.svg') ?><?= $followUsOnInstagram ?></a></p>
         <p><?= $scanInstagramQrCode ?></p>
         <img class="instagram-qr" src="<?= $contentSrc ?>/images/instagram-qr.jpg" alt="">
+      <?php endif ?>
+      <?php if (site()->youtube()->isNotEmpty()) : ?>
+        <p class="follow-us"><a href="<?= $site->youtube() ?>"><?= file_get_contents('assets/svgs/Youtube_3.svg') ?><?= $followUsOnYouTube ?></a></p>
       <?php endif ?>
       <?php if (site()->facebook()->isNotEmpty()) : ?>
         <p class="follow-us"><a href="<?= $site->facebook() ?>"><?= file_get_contents('assets/svgs/Facebook_3.svg') ?><?= $followUsOnFacebook ?></a></p>
@@ -122,6 +126,7 @@
       <?php endif ?>
       <?php if (site()->twitter()->isNotEmpty()) : ?>
         <p class="follow-us"><a href="<?= $site->twitter() ?>"><?= file_get_contents('assets/svgs/Twitter_3.svg') ?><?= $followUsOnTwitter ?></a></p>
+      <?php endif ?>
       <?php endif ?>
     </div>
   </div>
