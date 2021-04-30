@@ -2,7 +2,7 @@
   $contentSrc = '/assets';
 
   function buildSocialLink($name,$content) {
-    $str = '<a class="social-icon '.$name.'" href="'.$content.'">';
+    $str = '<a class="social-icon '.$name.'" href="'.$content.'" target="_blank">';
     $str .= file_get_contents('svgs/'.$name.'.html',FILE_USE_INCLUDE_PATH);
     $str .= '<span class="social-icon-text">'.$name.'</span>';
     $str .= '</a>';
