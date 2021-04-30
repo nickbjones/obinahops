@@ -1,11 +1,14 @@
 <?php
-  $seeMoreOnInstagram = $kirby->language() == "en" ? "See more on Instagram." : "Instagramで続きを見る.";
+  $seeMoreOnInstagram = $kirby->language() == "en" ? "See more on Instagram" : "Instagramで続きを見る";
+  $igIcon = file_get_contents('svgs/instagram.html',FILE_USE_INCLUDE_PATH);
+  $template = '<div class="ig-item"><div class="ig-card"><img class="ig-image" src="{{image}}" /><a class="ig-link" href="{{link}}"></a><p class="ig-description">{{caption}}</p></div></div>';
 ?>
+
 <div class="ns-instagram">
   <h2 class="title"><?= $title ?></h2>
-  <div id="instagram-container" class="instagram-container"></div>
-  <div class="instagram-link">
-    <a href="<?= $site->instagram() ?>"><?= $seeMoreOnInstagram ?></a>
+  <div id="ig-container" class="ig-container"></div>
+  <div class="ig-link">
+    <a href="<?= $site->instagram() ?>"><?= $seeMoreOnInstagram ?> →</a>
   </div>
 </div>
 
@@ -14,11 +17,11 @@
 <script type="text/javascript">
   var userFeed = new Instafeed({
     get: 'user',
-    target: "instagram-container",
+    target: "ig-container",
     limit: 3,
     resolution: 'low_resolution',
     accessToken: 'IGQVJVMVVrZA284SFpYdm5kdjBDR2VUa2MyYWxlR2tYX0tXd2JvQ08waXQySkJjSVAyblZAUcWNTdkFhZAkZA2VFlHVXppYjN1YjBQY21NVWROZAk1MOTM3OE1wZAlJKSWVZAWEE5WjRtVTl4T3dxZAk1hNzI0YwZDZD',
-    template: '<div class="instagram-item"><img class="instagram-image" src="{{image}}" /><p class="instagram-description">{{caption}}</p></div>',
+    template: '<?= $template ?>',
   });
   userFeed.run();
 </script>
