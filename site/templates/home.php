@@ -12,7 +12,7 @@
   $followUsOnLinkedIn = $kirby->language() == "en" ? "Follow us on LinkedIn." : "LinkedInでフォローして.";
   $followUsOnTwitter = $kirby->language() == "en" ? "Follow us on Twitter." : "Twitterでフォローして.";
   $scanInstagramQrCode = $kirby->language() == "en" ? "Scan the QR code to follow our Instagram account:" : "QRコードをスキャンして、Instagramアカウントをフォローして:";
-  $campfireLinkText = $kirby->language() == "en" ? "We are crowdfunding for the brewery <br>and we welcome your support!!" : "醸造所にクラウドファンディングを行っており、<br>皆様のご支援をお待ちしております！";
+  $campfireLinkText = $kirby->language() == "en" ? "We are crowdfunding for the brewery <br>and we welcome your support!!" : "現在クラウドファンディングを行っています。<br>皆様のご支援をお待ちしております！";
 ?>
 <?php snippet('head') ?>
 <?= css('assets/css/home.css') ?>
